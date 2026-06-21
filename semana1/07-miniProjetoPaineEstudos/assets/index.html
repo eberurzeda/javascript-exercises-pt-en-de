@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Painel de Estudos JS</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Painel de Estudos JS</h1>
+
+    <p class="introducao">
+      Organize sua primeira hora de estudo de JavaScript.
+    </p>
+
+    <section class="card">
+      <h2>Dados do estudo</h2>
+
+      <label for="nome">Nome do estudante:</label>
+      <input type="text" id="nome" placeholder="Ex.: Eber">
+
+      <label for="tema">Tema de hoje:</label>
+      <input type="text" id="tema" placeholder="Ex.: DOM, arrays, funções">
+    </section>
+
+    <section class="card">
+      <h2>Tarefas do dia</h2>
+
+      <label for="tarefa">Nova tarefa:</label>
+      <input type="text" id="tarefa" placeholder="Ex.: Revisar querySelector">
+
+      <button id="botao-adicionar">Adicionar tarefa</button>
+
+      <ul id="lista-tarefas"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Resumo</h2>
+
+      <button id="botao-resumo">Gerar resumo</button>
+
+      <p id="resumo"></p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #172554;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.introducao {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  background-color: #dbeafe;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.tarefa-concluida {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+#resumo {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #dbeafe;
+  border-radius: 8px;
+  font-weight: bold;
+}
